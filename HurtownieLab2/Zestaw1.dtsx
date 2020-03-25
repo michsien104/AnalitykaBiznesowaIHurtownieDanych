@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="LENOVO-PC"
   DTS:CreatorName="LENOVO-PC\Lenovo"
-  DTS:DTSID="{D1001DB5-58A1-4532-A26F-FBAD1C458A93}"
+  DTS:DTSID="{CB358E9E-8DF0-4E9A-832A-3E54ADFF1A74}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="14.0.3002.92"
   DTS:LocaleID="1045"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Zestaw1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{E0BF404D-2539-469B-91F3-C16827743200}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{32C48CA2-C4BF-4E8D-9E5E-4BA51BF304E2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

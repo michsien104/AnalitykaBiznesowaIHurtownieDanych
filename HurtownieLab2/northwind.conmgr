@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="northwind"
+  DTS:DTSID="{FF895F54-0C0D-47C7-B877-78CFC7520B47}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=C:\Users\Lenovo\Desktop\Hurtownie\Zestaw 2\northwind.mdb;Provider=Microsoft.ACE.OLEDB.12.0;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
