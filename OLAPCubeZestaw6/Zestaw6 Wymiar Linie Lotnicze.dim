@@ -1,0 +1,163 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ba27299b-3dbc-4468-86de-5f1e68bc9695" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Zestaw6 Wymiar Linie Lotnicze</ID>
+  <Name>Zestaw6 Wymiar Linie Lotnicze</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="582a9750-c3a7-469c-82a6-cd7e6972e3ee">
+    <DataSourceViewID>BAZA</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="851fa160-f42a-45f1-b219-25ce0890612c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2301e66d-9132-46d2-a521-e80b2c40f2f7">
+      <ID>Kod IATA</ID>
+      <Name>Kod IATA</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84018c3a-0a42-4b38-8b99-8ff484257e20">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c163815-fd6d-4336-8748-9d1fc7f392da">
+            <TableID>dbo_zestaw6_wymiar_linie_lotnicze</TableID>
+            <ColumnID>kod_x0020_IATA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="18cdd7f7-1baf-443c-a7b8-cd049a2b1466">
+          <AttributeID>Aktywna</AttributeID>
+          <Name>Aktywna</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb45b3d4-a49f-435c-910f-6f85872c9d87">
+          <AttributeID>Kraj</AttributeID>
+          <Name>Kraj</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb0e1cdd-3716-46f6-9344-f3926e96111e">
+          <AttributeID>Linia Lotnicza</AttributeID>
+          <Name>Linia Lotnicza</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="29557006-c2d0-4ede-ae89-1d300f94386b">
+          <AttributeID>Kod ICAO</AttributeID>
+          <Name>Kod ICAO</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8fc6ac5d-0f86-42a6-b0d4-0cbdaa20c5e0">
+      <ID>Aktywna</ID>
+      <Name>Aktywna</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="99cad4a4-652a-4ff4-9b61-c5bde0503128">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cc43c346-86cb-4454-a650-690f05effd22">
+            <TableID>dbo_zestaw6_wymiar_linie_lotnicze</TableID>
+            <ColumnID>aktywna</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="58db2ab8-1349-45eb-a8ee-6f24ea442abb">
+      <ID>Kraj</ID>
+      <Name>Kraj</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e34edab-361e-423e-a99f-dc3a3c8c9411">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee010d3d-acef-4a2d-a7ef-99073652cd6f">
+            <TableID>dbo_zestaw6_wymiar_linie_lotnicze</TableID>
+            <ColumnID>kraj</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="092da724-1d38-4b49-b01b-82c03a8fd4d8">
+      <ID>Linia Lotnicza</ID>
+      <Name>Linia Lotnicza</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6b2c0b23-0f98-4496-bd09-f20e93fa0575">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15b19ab9-2afb-46d9-9c86-d2d37ed340f8">
+            <TableID>dbo_zestaw6_wymiar_linie_lotnicze</TableID>
+            <ColumnID>linia_x0020_lotnicza</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b7b4688-44eb-416b-b056-d5a4d2016f8d">
+      <ID>Kod ICAO</ID>
+      <Name>Kod ICAO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10fecce6-f264-4f75-a4a6-9ba423fafe0a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bbc0e81-83bd-4400-8b95-b0bc84a63753">
+            <TableID>dbo_zestaw6_wymiar_linie_lotnicze</TableID>
+            <ColumnID>kod_x0020_ICAO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

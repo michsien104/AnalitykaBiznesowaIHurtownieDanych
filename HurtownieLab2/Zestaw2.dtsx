@@ -11,8 +11,8 @@
   DTS:LocaleID="1045"
   DTS:ObjectName="Zestaw2"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{C48287C7-59A2-4CB2-87CC-CDD5F1819C30}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{6D3A8BBE-2FE5-4AEC-AF56-4B5BC469A19C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -2576,14 +2576,6 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="123.2,41.6"
-          Id="Package\Import Produkty\Kategorie"
-          TopLeft="520.8,71.2" />
-        <NodeLayout
-          Size="120,41.6"
-          Id="Package\Import Produkty\Produkty"
-          TopLeft="296,55.2" />
-        <NodeLayout
           Size="170.4,41.6"
           Id="Package\Import Produkty\OLE DB Destination"
           TopLeft="363.2,302.4" />
@@ -2592,49 +2584,47 @@
           Id="Package\Import Produkty\Merge Join"
           TopLeft="380,217.6" />
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Import Produkty\Sort"
-          TopLeft="310.4,146.4" />
-        <NodeLayout
           Size="106.4,41.6"
           Id="Package\Import Produkty\Sort 1"
           TopLeft="526.4,152" />
+        <NodeLayout
+          Size="120,41.6"
+          Id="Package\Import Produkty\Produkty"
+          TopLeft="296,55.2" />
+        <NodeLayout
+          Size="123.2,41.6"
+          Id="Package\Import Produkty\Kategorie"
+          TopLeft="520.8,71.2" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Import Produkty\Sort"
+          TopLeft="310.4,146.4" />
         <EdgeLayout
-          Id="Package\Import Produkty.Paths[OLE DB Source Output]"
-          TopLeft="357.6,96.8">
+          Id="Package\Import Produkty.Paths[Sort Output1]"
+          TopLeft="359.2,188">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49.6000000000001"
+              EndConnector="65.3333333333333,29.6"
               Start="0,0"
-              End="0,42.1000000000001">
+              End="65.3333333333333,22.1">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.1000000000001" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Import Produkty.Paths[OLE DB Source Output1]"
-          TopLeft="581,112.8">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39.2"
-              Start="0,0"
-              End="0,31.7">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="0,13.5434146341463" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5434146341463"
+                    Point2="0,17.5434146341463"
+                    Point3="4,17.5434146341463" />
                   <mssgle:LineSegment
-                    End="0,31.7" />
+                    End="61.3333333333333,17.5434146341463" />
+                  <mssgle:CubicBezierSegment
+                    Point1="61.3333333333333,17.5434146341463"
+                    Point2="65.3333333333333,17.5434146341463"
+                    Point3="65.3333333333333,21.5434146341463" />
+                  <mssgle:LineSegment
+                    End="65.3333333333333,22.1" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2678,31 +2668,41 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Import Produkty.Paths[Sort Output1]"
-          TopLeft="359.2,188">
+          Id="Package\Import Produkty.Paths[OLE DB Source Output1]"
+          TopLeft="581,112.8">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="65.3333333333333,29.6"
+              EndConnector="0,39.2"
               Start="0,0"
-              End="65.3333333333333,22.1">
+              End="0,31.7">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.5434146341463" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,13.5434146341463"
-                    Point2="0,17.5434146341463"
-                    Point3="4,17.5434146341463" />
+                    End="0,31.7" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Import Produkty.Paths[OLE DB Source Output]"
+          TopLeft="357.6,96.8">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49.6000000000001"
+              Start="0,0"
+              End="0,42.1000000000001">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="61.3333333333333,17.5434146341463" />
-                  <mssgle:CubicBezierSegment
-                    Point1="61.3333333333333,17.5434146341463"
-                    Point2="65.3333333333333,17.5434146341463"
-                    Point3="65.3333333333333,21.5434146341463" />
-                  <mssgle:LineSegment
-                    End="65.3333333333333,22.1" />
+                    End="0,42.1000000000001" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2737,7 +2737,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Import Produkty\Kategorie">
+    design-time-name="Package\Import Produkty\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2763,7 +2763,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Import Produkty\OLE DB Destination">
+    design-time-name="Package\Import Produkty\Kategorie">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "HurtownieDanych", "HurtownieLab2\HurtownieDanych.dtproj", "{89FDFF4F-BACD-492E-AA20-58DE00116155}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPCubeZestaw6", "OLAPCubeZestaw6\OLAPCubeZestaw6.dwproj", "{1F313B91-41FF-4D0F-AC39-EC7A6B066E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -12,6 +14,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{89FDFF4F-BACD-492E-AA20-58DE00116155}.Development|Default.ActiveCfg = Development
 		{89FDFF4F-BACD-492E-AA20-58DE00116155}.Development|Default.Build.0 = Development
+		{1F313B91-41FF-4D0F-AC39-EC7A6B066E34}.Development|Default.ActiveCfg = Development
+		{1F313B91-41FF-4D0F-AC39-EC7A6B066E34}.Development|Default.Build.0 = Development
+		{1F313B91-41FF-4D0F-AC39-EC7A6B066E34}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

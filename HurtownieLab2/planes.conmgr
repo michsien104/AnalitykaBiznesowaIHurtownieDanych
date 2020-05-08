@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="planes"
+  DTS:DTSID="{92FD9BFA-3941-42F5-A28B-A8E4C21F6109}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1045"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="C:\Users\Lenovo\Desktop\Hurtownie\lab1-2\Logistic-data\planes.dat">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="302"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Name"
+          DTS:DTSID="{8D9B7A7A-5950-4CB6-8245-9CF5F2DBC5FD}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="302"
+          DTS:TextQualified="True"
+          DTS:ObjectName="IATACode"
+          DTS:DTSID="{CDA67ACB-EE1B-4D6B-AC4E-A4754141741F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="302"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ICAOCode"
+          DTS:DTSID="{1677CD0E-B98C-4AEB-8E88-7D5EFFA54F51}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

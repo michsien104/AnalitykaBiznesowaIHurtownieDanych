@@ -1,0 +1,214 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="daac4fa9-5af3-4549-8509-a0cd9e2ccd66" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BAZA</ID>
+  <Name>BAZA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5589" scrolltop="-3129" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18352" y="16595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="zestaw6_fakt_operacje" left="-150" top="6189" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6689" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000211a0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_zestaw6_fakt_operacje" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="zestaw6_wymiar_loty" left="496" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4339" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000f310000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_zestaw6_wymiar_loty" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="616" top="3967" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="1228" height="2522" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_numer_lotu]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1015" y="4466" />
+              <point x="1015" y="5327" />
+              <point x="1544" y="5327" />
+              <point x="1544" y="6189" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5589</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3129</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-150</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0d74ae4f-2ad7-4e70-9366-bcd043466663">
+      <ID>Zestaw6 Wymiar Loty</ID>
+      <Name>Zestaw6 Wymiar Loty</Name>
+      <DimensionID>Zestaw6 Wymiar Loty</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="435af18d-a699-4071-8e28-9aaf89ae1518">
+          <AttributeID>Numer Lotu</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6ab3695-fb58-4a47-99d4-cda19e6a4f56">
+          <AttributeID>Kontynent Src</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="382a74b6-1a58-467f-ac7e-9a4a71610c98">
+          <AttributeID>Kontynent Dst</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="949f5df7-daa2-4d76-9964-9752eb68a9c0">
+          <AttributeID>Kraj Src</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="01b09be4-a3b3-4789-a779-8c94a744c25f">
+          <AttributeID>Kraj Dst</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="50f54553-6c19-454b-b01f-702c4bcdf863">
+          <AttributeID>Liczba Miedzyladowan</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47f47ffc-8cea-461b-b87a-b5cb111df8e4">
+          <AttributeID>Maszyny Obslugujace Lot</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f83010e-c4f2-45fa-b13b-df281fd020ef">
+          <AttributeID>Linia Lotnicza IATA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8babb91-287c-40ab-b494-f035c0c59ff7">
+          <AttributeID>Lotnisko Src</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fdacc03e-722d-49b7-b079-e137acff04e4">
+          <AttributeID>Lotnisko Dst</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3ec93f46-b743-41d1-9871-37ae4c4110fb">
+      <ID>Zestaw6 Fakt Operacje</ID>
+      <Name>Zestaw6 Fakt Operacje</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e5905e88-f05e-4475-933f-fe428a4fe9b2">
+          <ID>Ilosc Pasazerow Na Pokladzie</ID>
+          <Name>Ilosc Pasazerow Na Pokladzie</Name>
+          <Source dwd:design-time-name="3a4c1c81-82c9-4b98-b84e-3033b597adaf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="05c23e8b-0994-4489-bd1c-bc0c3f144883">
+              <TableID>dbo_zestaw6_fakt_operacje</TableID>
+              <ColumnID>ilosc_x0020_pasazerow_x0020_na_x0020_pokladzie</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="111b2257-0720-4802-acbd-a54b77563eda">
+          <ID>Procentowe Oblozenie Miejsc Na Pokladzie</ID>
+          <Name>Procentowe Oblozenie Miejsc Na Pokladzie</Name>
+          <Source dwd:design-time-name="1fbd380f-5061-44a4-a1fb-3b97dfd02d1c">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73fa53d2-b9c1-4276-b2bc-1a4e1a7c1e90">
+              <TableID>dbo_zestaw6_fakt_operacje</TableID>
+              <ColumnID>procentowe_x0020_oblozenie_x0020_miejsc_x0020_na_x0020_pokladzie</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="54e1bd34-c10b-4485-aaa8-5be61e321375">
+          <ID>Zestaw6 Fakt Operacje Count</ID>
+          <Name>Zestaw6 Fakt Operacje Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9d889903-eb9f-40d2-9759-3c91ececb61b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="d5ec9a3c-1d62-4241-8632-fcbd9a5b503d">
+              <TableID>dbo_zestaw6_fakt_operacje</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1162748d-4815-4f43-96c1-0c045e0ee76c">
+          <CubeDimensionID>Zestaw6 Wymiar Loty</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c35a80a8-313c-4a85-a356-b477949891b2">
+              <AttributeID>Numer Lotu</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ebc166d2-1f2c-4fbd-8eb6-283aa67b638f">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4c497145-2b57-4a03-aa86-61494af72ab5">
+                    <TableID>dbo_zestaw6_fakt_operacje</TableID>
+                    <ColumnID>numer_x0020_lotu</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="e5bda195-8eb0-49e3-801f-e639a62fce84">
+    <DataSourceViewID>BAZA</DataSourceViewID>
+  </Source>
+</Cube>
